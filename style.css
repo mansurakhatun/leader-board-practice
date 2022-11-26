@@ -1,0 +1,131 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* common style or utilities */
+.top-box{
+  width: 100%;
+  height: 65px;
+  background-color: #562EFF;
+  margin-bottom: 30px ;
+  display: flex;
+  justify-content: space-between;
+}
+.box-logo img{
+  width: 35px;
+  height: 42px;
+  margin-top: 12px;
+  margin-left: 200px;
+}
+.box-logo{
+  display: flex;
+}
+.logo-text{
+  color:#ffffff;
+  padding-left: 10px;
+  font-size: 20px;
+}
+.space a{
+  color:#ffffff;
+  padding-left: 30px;
+}
+.space img{
+  padding-right: 200px;
+  padding-left: 30px;
+  padding-top: 8px;
+}
+body{
+   font-family: 'Poppins', sans-serif;
+   background-color:  #f3f1ff;
+   margin-top: 21px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    width: 870px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section-title{
+    color: #562EFF;
+    font-size:24px;
+    margin-top: 3px;
+}
+hr{
+    border:1px solid #d1d1d1;
+    margin-bottom: 27px;
+  }
+/* top-players-style */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+.player{
+    display: flex;
+}
+.player img{
+    width: 56px;
+    height:56px;
+}
+.player-name{
+    font-size: 18px;
+    margin: 16px;
+  }
+  /* Top blogs-styles */
+  .blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 30px;
+  }
+  .blog{
+    display: flex;
+  }
+  .thumbnail{
+    width: 177px;
+    height: 117px;
+  }
+  .blog-info{
+    margin-left: 16px;
+  }
+  .blog-author{
+    color: darkgray;
+    font-size: 16px;
+  }
+  a{
+    text-decoration: none;
+    color: #562EFF;
+    font-size: 16px;
+  }
+  /* courses style */
+  .courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .course-banner img{
+    width: 224px;
+    height: 104px;
+  }
+  .course-author{
+    color:tomato;
+  }
+  .course-detail{
+   display: flex;
+    justify-content: space-between;
+  }
+  .filled{
+    color: #ffc014;
+  }
+  .empty{
+    color:#aeaeae;
+  }
+  .course-time{
+    color:tomato;
+    margin-right: 30px;
+  }
+
+
