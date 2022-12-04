@@ -23,6 +23,10 @@
   padding-left: 10px;
   font-size: 20px;
 }
+.space {
+  display: flex;
+  align-items: center;
+}
 .space a{
   color:#ffffff;
   padding-left: 30px;
@@ -127,5 +131,30 @@ hr{
     color:tomato;
     margin-right: 30px;
   }
+  /*-------------------------
+   media queres 
+   ------------------------*/
+   /*------mobile devices--------*/
+   @media only screen and (max-width:688px) {
+    .top-box{
+      width: 100%;
+    }
+    .players,.blogs,.courses{
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .player,.blog{
+      flex-direction: column;
+    }
+   }
+   /* tablet devices */
+   @media only screen and
+   (min-width:688px) and (max-width:992px) {
+    .top-box{
+      width: 100%;
+    }
+    .players{
+      background-color: aqua;
+      grid-template-columns: repeat(2, 1fr);
+    }
 
-
+   }
