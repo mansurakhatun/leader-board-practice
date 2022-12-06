@@ -131,11 +131,16 @@ hr{
     color:tomato;
     margin-right: 30px;
   }
+  span{
+    background-color: rgba(245, 136, 117, 0.384);
+    padding: 3px 10px;
+    border-radius: 15px;
+  }
   /*-------------------------
    media queres 
    ------------------------*/
    /*------mobile devices--------*/
-   @media only screen and (max-width:688px) {
+   @media only screen and (max-width:687px) {
     .top-box{
       width: 100%;
     }
